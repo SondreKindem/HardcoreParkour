@@ -15,4 +15,8 @@ Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 4. Repeat for each checkpoint. The final checkpoint acts as the goal.
 5. Set the kill-height. If players move below this height, they will respawn to the latest checkpoint. Position yourself at the height you want, and use `/hcp setkillheight`. You can specify the height manually if you really want to as well.
 
-Done! Now players can join with `/hcp join [name]`, or create races on your new course. Remember to make sure players can't grief your course!
+Done! Now players can join with `/hcp join [name]`, or create races on your new course.
+
+### Protips:
+* Remember to make sure players can't grief your course!
+* Mark your checkpoints with colored blocks!
