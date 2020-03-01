@@ -18,5 +18,6 @@ Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 Done! Now players can join with `/hcp join [name]`, or create races on your new course.
 
 ### Protips:
+* The direction you face when creating a course and adding checkpoints is the direction players will look when respawning!
 * Remember to make sure players can't grief your course!
 * Mark your checkpoints with colored blocks!
