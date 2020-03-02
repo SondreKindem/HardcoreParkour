@@ -2,7 +2,7 @@
 A simple plugin for creating parkour courses and arranging parkour races.
 
 ### Requirements
-Spigot/Paper/anything else compatible with the Spigot API
+Spigot/Paper/anything else compatible with the Spigot API.<br>
 Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 
 ### Commands & permissions
