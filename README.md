@@ -10,7 +10,7 @@ Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 
 ### Tutorial
 1. Create a parkour course (duh).
-2. Stand on the block you want the spawn for the course to be. Run `/hcp create [name]`
+2. Stand on the block where you want the spawn for the course to be. Run `/hcp create [name]`
 3. Now for each checkpoint you want, stand in the center of the area you want you checkpoint, and run `/hcp addcheckpoint [course-name] <radius> <height>` Height and radius are optional, defaulting to a value of 1.
 4. Repeat for each checkpoint. The final checkpoint acts as the goal.
 5. Set the kill-height. If players move below this height, they will respawn to the latest checkpoint. Position yourself at the height you want, and use `/hcp setkillheight`. You can specify the height manually if you really want to as well.
