@@ -6,7 +6,7 @@ Spigot/Paper/anything else compatible with the Spigot API.<br>
 Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 
 ### Commands & permissions
-[Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
+## [Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
 
 ### Tutorial
 1. Create a parkour course (duh).
