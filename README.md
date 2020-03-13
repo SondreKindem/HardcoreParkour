@@ -25,9 +25,9 @@ Done! Now players can join with `/hcp join <course>`, or create races on your ne
 
 
 ## Permissions
-The plugin uses generally broad permissions, defined as:<br>
-**hcp.player** - Can play on courses and run different help and info commands. Given to everyone by default.<br>
-**hcp.race.player** - Can join races. Given to everyone by default.<br>
-**hcp.race.create** - Can create races and can start and end their own race. Given to everyone by default.<br>
-**hcp.challenge** - Can challenge other players and can accept challenges. Given to everyone by default.<br>
-**hcp.admin** - Can create, modify and delete courses. Can also force races to start and end. Lastly the admin can modify plugin settings. Given to OP by default.<br>
+The plugin uses generally broad permissions, defined as:
+* **hcp.player** - Can play on courses and run different help and info commands. Given to everyone by default.
+* **hcp.race.player** - Can join races. Given to everyone by default.
+* **hcp.race.create** - Can create races and can start and end their own race. Given to everyone by default.
+* **hcp.challenge** - Can challenge other players and can accept challenges. Given to everyone by default.
+* **hcp.admin** - Can create, modify and delete courses. Can also force races to start and end. Lastly the admin can modify plugin settings. Given to OP by default.
