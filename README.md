@@ -5,7 +5,6 @@ Hopefully simple and flexible.
 
 ### Found any bugs? Something does not work? Want a feature? Post in the issues section :)
 
-<br>
 ### Features:
 * Create parkour courses players can join.
 * Players can create and join races.
