@@ -15,10 +15,6 @@ Spigot/Paper/anything else compatible with the Spigot API.<br>
 Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 
 
-### Commands & permissions
-### [Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
-
-
 ### Course tutorial
 1. Create a parkour course (duh).
 2. Stand on the block where you want the spawn for the course to be. Run `/hcp create <name>`
@@ -42,6 +38,10 @@ Done! Now players can join with `/hcp join <course>`, or create races on your ne
 * If you add or remove checkpoints for an existing course, you should run `/hcp resethighscore <course>`
 * Remember to make sure players can't grief your course!
 * Make your checkpoints obvious!
+
+
+## Commands
+### [Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
 
 
 ## Permissions
