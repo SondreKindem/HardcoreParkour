@@ -2,6 +2,9 @@
 A simple plugin for creating parkour courses and arranging parkour races.
 
 Hopefully simple and flexible.
+
+### Found any bugs? Something does not work? Want a feature? Post in the issues section :)
+
 <br>
 ### Features:
 * Create parkour courses players can join.
