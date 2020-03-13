@@ -3,7 +3,7 @@ A simple plugin for creating parkour courses and arranging parkour races.
 
 Hopefully simple and flexible.
 
-### Found any bugs? Something does not work? Want a feature? Post in the issues section :)
+**Found any bugs? Something does not work? Want a feature? Post in the issues section :)
 
 ### Features:
 * Create parkour courses players can join.
@@ -16,6 +16,19 @@ Hopefully simple and flexible.
 Spigot/Paper/anything else compatible with the Spigot API.<br>
 Built & tested on Minecraft v1.15.2 - could be compatible with earlier & later
 
+
+## Commands
+### [Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
+
+## Permissions
+The plugin uses generally broad permissions, defined as:
+* **hcp.player** - Can play on courses and run different help and info commands. Given to everyone by default.
+* **hcp.race.player** - Can join races. Given to everyone by default.
+* **hcp.race.create** - Can create races and can start and end their own race. Given to everyone by default.
+* **hcp.challenge** - Can challenge other players and can accept challenges. Given to everyone by default.
+* **hcp.admin** - Can create, modify and delete courses. Can also force races to start and end. Lastly the admin can modify plugin settings. Given to OP by default.
+
+## Tutorials
 
 ### Course tutorial
 1. Create a parkour course (duh).
@@ -42,14 +55,3 @@ Done! Now players can join with `/hcp join <course>`, or create races on your ne
 * Make your checkpoints obvious!
 
 
-## Commands
-### [Head over to the command reference in the wiki](https://github.com/SondreKindem/HardcoreParkour/wiki/Command-reference)
-
-
-## Permissions
-The plugin uses generally broad permissions, defined as:
-* **hcp.player** - Can play on courses and run different help and info commands. Given to everyone by default.
-* **hcp.race.player** - Can join races. Given to everyone by default.
-* **hcp.race.create** - Can create races and can start and end their own race. Given to everyone by default.
-* **hcp.challenge** - Can challenge other players and can accept challenges. Given to everyone by default.
-* **hcp.admin** - Can create, modify and delete courses. Can also force races to start and end. Lastly the admin can modify plugin settings. Given to OP by default.
