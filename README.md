@@ -31,9 +31,9 @@ The plugin uses generally broad permissions, defined as:
 ## Tutorials
 
 ### Course tutorial
-1. Create a parkour course (duh).
+1. Create an actual parkour course with blocks (duh).
 2. Stand on the block where you want the spawn for the course to be. Run `/hcp create <name>`
-3. Now for each checkpoint, stand in the center of where the checkpoint should be, and run `/hcp addcheckpoint <course> [radius] [height]` Height and radius are optional, defaulting to a value of 0, resulting in a size of one block. Note that if you want to specify a radius, you also have to provide the height.
+3. Now for each checkpoint, stand on the block where the checkpoint should be, and type `/hcp addcheckpoint <course-name> [radius] [height]` Height and radius are optional. By default the checkpoint only covers the block you are standing in. Note that if you want to specify a radius, you also have to provide the height.
 4. Repeat for each checkpoint. The final checkpoint acts as the goal.
 5. Set the kill-height. If players move below this height, they will respawn to the latest checkpoint. Position yourself at the height you want, and use `/hcp setkillheight`. You can specify the height manually if you really want to as well.
 
@@ -41,6 +41,7 @@ Done! Now players can join with `/hcp join <course>`, or create races on your ne
 
 
 ### Race tutorial
+Races are designed to be created by normal players. If you do not want this, you can use permissions to remove access to race creation.
 1. create a race with `/hcp race create [course-name] <optional: [time-limit]>`
 2. The plugin will announce everyone on the server that a race has been created. The creator of the race does not automatically join the race. Anyone who wishes to join can click the announcement in chat, or run `/hcp race join [name-of-race-creator]`.
 3. Once ready use `/hcp race start <optional: [countdown]>`. If there is a countdown another announcement is sent.
@@ -53,5 +54,3 @@ Done! Now players can join with `/hcp join <course>`, or create races on your ne
 * If you add or remove checkpoints for an existing course, you should run `/hcp resethighscore <course>`
 * Remember to make sure players can't grief your course!
 * Make your checkpoints obvious!
-
-
