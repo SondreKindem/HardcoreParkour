@@ -1,0 +1,14 @@
+# HardcoreParkour config file
+# All settings can be changed in-game with /hcp config [setting]
+# Best to not touch the courses section at all
+settings:
+  # Put players into spectator mode once they finish a race.
+  spectateAfterRace: true
+  # Broadcast to the entire server when a player finishes a race. Displays the course name and position finished in.
+  broadcastRaceFinish: true
+  # Players will be see-through while in a course
+  playerGhosts: true
+  # Autosave frequency in minutes
+  autosave: 30
+
+courses:

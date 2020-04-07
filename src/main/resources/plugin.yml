@@ -1,0 +1,33 @@
+main: no.sonkin.hardcoreParkour.Main
+name: HardcoreParkour
+version: 1.0
+api-version: 1.15
+author: Sonkin
+description: Simple parkour plugin
+commands:
+  hcp:
+    description: "Use '/hcp help' for player commands"
+    usage: "Usage: /hcp"
+    aliases:
+      - parkour
+permissions:
+  hcp.player:
+    description: Allows for general commands, such as joining and leaving.
+    default: true
+  hcp.race.player:
+    description: Allows for players to join and leave races.
+    default: true
+  hcp.race.create:
+    description: Allows for players to create and start races.
+    default: true
+  hcp.challenge:
+    description: Lets player challenge other players to a race.
+    default: true
+  hcp.admin:
+    description: Allows for creating, modifying and deleting courses.
+    default: op
+    children:
+      hcp.race.create: true
+      hcp.race.player: true
+      hcp.player: true
+      hcp.challenge: true
