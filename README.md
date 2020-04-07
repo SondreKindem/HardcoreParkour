@@ -10,6 +10,7 @@ Hopefully simple and flexible.
 * Players can create and join races.
 * Players can challenge each other to a race.
 * Keeps track of the fastest recorded time for each course.
+* All settings can be changed in-game
 
 
 ### Requirements
