@@ -1,4 +1,4 @@
-# HardcoreParkour
+![HardcoreParkour logo](/Logo/logo.webp)
 A simple plugin for creating parkour courses and arranging parkour races.
 
 Hopefully simple and flexible.
